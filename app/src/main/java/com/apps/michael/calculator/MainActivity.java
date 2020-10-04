@@ -34,7 +34,8 @@ public class MainActivity extends Activity {
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         mWebView.getSettings().setDomStorageEnabled(true);
-        mWebView.loadUrl("https://studio.code.org/projects/applab/pldLa5k_Ccq1NtqpolqcnQ");
+//        mWebView.loadUrl("https://studio.code.org/projects/applab/pldLa5k_Ccq1NtqpolqcnQ");
+        mWebView.loadUrl("file://src/main/Calculator/index.html");
         mWebView.setWebViewClient(new HelloWebViewClient());
 
 
